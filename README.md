@@ -13,13 +13,13 @@ Give your cursor cool effects.
 
 To use CursorX >
 ```bash
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.0/cursorx-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.3/cursorx-style.css">
 ```
 - Copy and paste this link on your html head tag.
 
 And >
 ```bash
-<script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.0/cursorx.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.3/cursorx.js"></script>
 ```
 - Copy and paste this to your body tag at the end.
 ---
@@ -43,7 +43,7 @@ Installation Done, Now to implement cursor effect >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.1/cursorx-style.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.3/cursorx-style.css">    
     <style>
       button {
           background-color: aquamarine;
@@ -70,7 +70,7 @@ Installation Done, Now to implement cursor effect >
 
     <button>Test ME!</button>
     
-    <script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.1/cursorx.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.3/cursorx.js"></script>
   </body>
 </html>
 ```
