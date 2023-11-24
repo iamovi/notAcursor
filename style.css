@@ -1,0 +1,61 @@
+body {
+    padding: 20px;
+}
+.navbar-text a {
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+
+
+.navbar-toggler {
+    display: none;
+    }
+}
+
+p {
+    font-size: 20px;
+}
+
+section img {
+    border-radius: 5px;
+}
+
+.copy-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.copy-message.show {
+    opacity: 1;
+}
+.code {
+    padding: 10px;
+    background-color: white; /* Set your desired background color for the code block */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+pre {
+    padding: 20px;
+    background-color: white; /* Set your desired background color for the code block */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    /* font-weight: bold; */
+}

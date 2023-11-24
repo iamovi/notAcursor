@@ -3,35 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CursorX</title>
+    <link rel="icon" href="./cursorx-favicon.png">
 
-    <link rel="stylesheet" href="./cursor-style.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.3/cursorx-style.css">
     <style>
-      button {
-          background-color: aquamarine;
-          cursor: pointer;
-          display: block;
-          border: 1px solid black;
-          margin: auto;
-          margin-top: 150px;
-          padding: 10px;
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Roboto', sans-serif;
       }
+      
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      html, body {
+        height: 100%;
+      }
+      
+      body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradientAnimation 15s ease infinite;
+      }
+      
+      button {
+        background-color: aquamarine;
+        cursor: pointer;
+        display: block;
+        border: 1px solid black;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        transition: transform 0.3s ease;
+        font-weight: bold;
+      }
+      
       button:hover {
         border-radius: 10px;
+        animation: shake 0.2s ease infinite;
       }
-  </style>
+      
+      h1, h3 {
+        text-align: center;
+        color: white;
+      }
+
+    /* Define the shake animation */
+    @keyframes shake {
+      0%, 100% {
+        transform: translate(-50%, -50%);
+      }
+      25%, 75% {
+        transform: translate(-50%, -50%) rotate(-5deg);
+      }
+      50% {
+        transform: translate(-50%, -50%) rotate(5deg);
+      }
+    }
+    </style>
   </head>
   <body>
-  <!-- cursor -->
-  <div class="CursorX-dot-type1" data-cursor-dot></div>
-  <div class="CursorX-outline-type1" data-cursor-outline></div>
+    <!-- cursor -->
+    <div class="CursorX-dot-type1" data-cursor-dot></div>
+    <div class="CursorX-outline-type1" data-cursor-outline></div>
 
-  <!-- cursor -->
-  <!-- <div class="CursorX-dot-type2" data-cursor-dot></div>
-  <div class="CursorX-outline-type2" data-cursor-outline></div> -->
+    <!-- cursor -->
+    <!-- <div class="CursorX-dot-type2" data-cursor-dot></div>
+    <div class="CursorX-outline-type2" data-cursor-outline></div> -->
 
-    <button>Test ME!</button>
-    
-    <script src="./cursorx.js"></script>
+    <h1>CursorX</h1>
+    <h3>Simply change your normal cursor to Cool Cursor.</h3>
+
+    <a href="./cursorx.html"><button>GET STARTED</button></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.3/cursorx.js"></script>
   </body>
 </html>
