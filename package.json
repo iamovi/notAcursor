@@ -1,0 +1,25 @@
+{
+  "name": "cursorx",
+  "version": "0.0.1",
+  "description": "Give your cursor cool effects.",
+  "main": "cursorx.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamovi/CursorX.git"
+  },
+  "keywords": [
+    "cursor",
+    "cool-cursor",
+    "cursor-effect",
+    "cursorx"
+  ],
+  "author": "Maruf OVi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamovi/CursorX/issues"
+  },
+  "Website": "https://iamovi.github.io/CursorX"
+}
