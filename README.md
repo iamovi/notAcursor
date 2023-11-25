@@ -29,7 +29,7 @@ Give your cursor cool effects.
 
 To use CursorX >
 ```bash
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx.css">
 ```
 - Copy and paste this link on your html head tag.
 
@@ -99,7 +99,7 @@ html, button {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx-style.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx.css">    
     <style>
       button {
           background-color: aquamarine;
@@ -158,3 +158,9 @@ html, button {
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Author
+
+Maruf OVi
+
+fornet.ovi@gmail.com
