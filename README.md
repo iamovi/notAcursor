@@ -3,11 +3,27 @@ Give your cursor cool effects.
 
 ### Preview CursorX-type1
 
-![CursorX-type1-preview](https://ik.imagekit.io/iamovi/CursorX/CursorX-type1-preview.gif?updatedAt=1700823392044)
+![CursorX-type1-preview](https://ik.imagekit.io/iamovi/CursorX/preview/preview-CursorX-type1.gif?updatedAt=1700934757810)
 
 ### Preview CursorX-type2
 
-![CursorX-type2-preview](https://ik.imagekit.io/iamovi/CursorX/CursorX-type2-preview.gif?updatedAt=1700823375495)
+![CursorX-type2-preview](https://ik.imagekit.io/iamovi/CursorX/preview/preview-CursorX-type2.gif?updatedAt=1700934758665)
+
+### Preview CursorX-type3
+
+![CursorX-type3-preview](https://ik.imagekit.io/iamovi/CursorX/preview/preview-CursorX-type3.gif?updatedAt=1700934758694)
+
+### Preview CursorX-pic
+
+![CursorX-pic-preview](https://ik.imagekit.io/iamovi/CursorX/preview/preview-CursorX-pic.gif?updatedAt=1700934758696)
+
+### Preview CursorX-minecraftSword
+
+![CursorX-minecraftSword-preview](https://ik.imagekit.io/iamovi/CursorX/preview/preview-CursorX-minecraftSword.gif?updatedAt=1700934758658)
+
+### Preview CursorX-apple
+
+![CursorX-apple-preview](https://ik.imagekit.io/iamovi/CursorX/preview/preview-CursorX-apple.gif?updatedAt=1700934758713)
 
 # Installation
 
@@ -34,7 +50,38 @@ Installation Done, Now to implement cursor effect >
 <div class="CursorX-dot-type2" data-cursor-dot></div>
 <div class="CursorX-outline-type2" data-cursor-outline></div>
 ```
-## Quick Start
+### More CursorX Types are given below >
+
+- CursorX-type3
+```bash
+<div class="CursorX-dot-type3" data-cursor-dot></div>
+<div class="CursorX-outline-type3" data-cursor-outline></div>
+```
+- CursorX-pic
+- Use your random pic or gif as cursor.
+- Just replace your_pic.png to your actual photo, Like abcd.png or abcd.jpg or abcd.gif
+```bash
+<div class="CursorX-dot-pic" data-cursor-dot></div>
+<img src="your_pic.png" alt="Cursor Image" 
+  class="CursorX-outline-pic" data-cursor-outline>
+```
+- CursorX-minecraftSword
+```bash
+<div class="CursorX-dot-minecraftSword" data-cursor-dot></div>
+<img src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092" alt="Cursor Image" 
+  class="CursorX-outline-minecraftSword" data-cursor-outline>
+```
+- CursorX-apple
+```bash
+<div class="CursorX-dot-apple" data-cursor-dot></div>
+<img src="https://ik.imagekit.io/iamovi/CursorX/apple.png?updatedAt=1700931158158" alt="Cursor Image" 
+  class="CursorX-outline-apple" data-cursor-outline>
+```
+- Check [CursorX-types.txt](./CursorX-types.txt) file.
+
+--- 
+
+## Example
 ```bash
 <!DOCTYPE html>
 <html lang="en">
@@ -60,13 +107,33 @@ Installation Done, Now to implement cursor effect >
   </style>
   </head>
   <body>
-  <!-- cursor -->
-  <div class="CursorX-dot-type1" data-cursor-dot></div>
-  <div class="CursorX-outline-type1" data-cursor-outline></div>
 
-  <!-- cursor -->
-  <!-- <div class="CursorX-dot-type2" data-cursor-dot></div>
-  <div class="CursorX-outline-type2" data-cursor-outline></div> -->
+    <!-- CursorX-type1 -->
+    <div class="CursorX-dot-type1" data-cursor-dot></div>
+    <div class="CursorX-outline-type1" data-cursor-outline></div>
+
+    <!-- CursorX-type2 -->
+    <!-- <div class="CursorX-dot-type2" data-cursor-dot></div>
+    <div class="CursorX-outline-type2" data-cursor-outline></div> -->
+
+    <!-- CursorX-type3 -->
+    <!-- <div class="CursorX-dot-type3" data-cursor-dot></div>
+    <div class="CursorX-outline-type3" data-cursor-outline></div> -->
+
+    <!-- CursorX-pic -->
+    <!-- <div class="CursorX-dot-pic" data-cursor-dot></div>
+    <img src="your_pic.jpg" alt="Cursor Image" 
+      class="CursorX-outline-pic" data-cursor-outline> -->    
+
+    <!-- CursorX-minecraftSword -->
+    <!-- <div class="CursorX-dot-minecraftSword" data-cursor-dot></div>
+    <img src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092" alt="Cursor Image" 
+    class="CursorX-outline-minecraftSword" data-cursor-outline> -->     
+
+    <!-- CursorX-apple -->
+    <!-- <div class="CursorX-dot-apple" data-cursor-dot></div>
+    <img src="https://ik.imagekit.io/iamovi/CursorX/apple.png?updatedAt=1700931158158" alt="Cursor Image" 
+    class="CursorX-outline-apple" data-cursor-outline> -->       
 
     <button>Test ME!</button>
     
