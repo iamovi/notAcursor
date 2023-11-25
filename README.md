@@ -1,5 +1,6 @@
 # CursorX Project
-Give your cursor cool effects.
+
+A tool that allows you to easily transform your ordinary cursor into something extraordinary.
 
 ### Preview CursorX-type1
 
@@ -29,24 +30,26 @@ Give your cursor cool effects.
 
 To use CursorX >
 ```bash
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.6/cursorx.css">
 ```
 - Copy and paste this link on your html head tag.
 
 And >
 ```bash
-<script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.6/cursorx.js"></script>
 ```
 - Copy and paste this to your body tag at the end.
 ---
 Installation Done, Now to implement cursor effect > 
 ```bash
-  <div class="CursorX-dot-type1" data-cursor-dot></div>
-  <div class="CursorX-outline-type1" data-cursor-outline></div>
+<!-- CursorX-type1 -->
+<div class="CursorX-dot-type1" data-cursor-dot></div>
+<div class="CursorX-outline-type1" data-cursor-outline></div>
 ```
 - Just copy and paste it to anywhere of your body tag.
 - This one is type1, To use type2 simply Change type1 to type2 >
 ```bash
+<!-- CursorX-type2 -->
 <div class="CursorX-dot-type2" data-cursor-dot></div>
 <div class="CursorX-outline-type2" data-cursor-outline></div>
 ```
@@ -54,6 +57,7 @@ Installation Done, Now to implement cursor effect >
 
 #### CursorX-type3
 ```bash
+<!-- CursorX-type3 -->
 <div class="CursorX-dot-type3" data-cursor-dot></div>
 <div class="CursorX-outline-type3" data-cursor-outline></div>
 ```
@@ -61,18 +65,21 @@ Installation Done, Now to implement cursor effect >
 - Use your random pic or gif as cursor.
 - Just replace your_pic.png to your actual photo, Like abcd.png or abcd.jpg or abcd.gif
 ```bash
+<!-- CursorX-pic -->
 <div class="CursorX-dot-pic" data-cursor-dot></div>
 <img src="your_pic.png" alt="Cursor Image" 
   class="CursorX-outline-pic" data-cursor-outline>
 ```
 #### CursorX-minecraftSword
 ```bash
+<!-- CursorX-minecraftSword -->
 <div class="CursorX-dot-minecraftSword" data-cursor-dot></div>
 <img src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092" alt="Cursor Image" 
   class="CursorX-outline-minecraftSword" data-cursor-outline>
 ```
 #### CursorX-apple
 ```bash
+<!-- CursorX-apple -->
 <div class="CursorX-dot-apple" data-cursor-dot></div>
 <img src="https://ik.imagekit.io/iamovi/CursorX/apple.png?updatedAt=1700931158158" alt="Cursor Image" 
   class="CursorX-outline-apple" data-cursor-outline>
@@ -83,7 +90,7 @@ Installation Done, Now to implement cursor effect >
 #### To show default Cursor >
 ![Preview of Get default cursor](https://ik.imagekit.io/iamovi/CursorX/preview/get-default-cursor.jpg?updatedAt=1700936041559)
 ```bash
-html, button {
+html, button, a {
   cursor: auto !important;
 }
 ```
@@ -95,11 +102,11 @@ html, button {
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.6/cursorx.css">    
     <style>
       button {
           background-color: aquamarine;
@@ -146,7 +153,7 @@ html, button {
 
     <button>Test ME!</button>
     
-    <script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.5/cursorx.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.6/cursorx.js"></script>
   </body>
 </html>
 ```
