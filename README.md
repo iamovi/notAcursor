@@ -52,12 +52,12 @@ Installation Done, Now to implement cursor effect >
 ```
 ### More CursorX Types are given below >
 
-- CursorX-type3
+#### CursorX-type3
 ```bash
 <div class="CursorX-dot-type3" data-cursor-dot></div>
 <div class="CursorX-outline-type3" data-cursor-outline></div>
 ```
-- CursorX-pic
+#### CursorX-pic
 - Use your random pic or gif as cursor.
 - Just replace your_pic.png to your actual photo, Like abcd.png or abcd.jpg or abcd.gif
 ```bash
@@ -65,19 +65,19 @@ Installation Done, Now to implement cursor effect >
 <img src="your_pic.png" alt="Cursor Image" 
   class="CursorX-outline-pic" data-cursor-outline>
 ```
-- CursorX-minecraftSword
+#### CursorX-minecraftSword
 ```bash
 <div class="CursorX-dot-minecraftSword" data-cursor-dot></div>
 <img src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092" alt="Cursor Image" 
   class="CursorX-outline-minecraftSword" data-cursor-outline>
 ```
-- CursorX-apple
+#### CursorX-apple
 ```bash
 <div class="CursorX-dot-apple" data-cursor-dot></div>
 <img src="https://ik.imagekit.io/iamovi/CursorX/apple.png?updatedAt=1700931158158" alt="Cursor Image" 
   class="CursorX-outline-apple" data-cursor-outline>
 ```
-- Check [CursorX-types.txt](./CursorX-types.txt) file.
+- Check [CursorX-types.txt](https://github.com/iamovi/CursorX/blob/main/CursorX-types.txt) file.
 
 --- 
 
@@ -144,7 +144,7 @@ Installation Done, Now to implement cursor effect >
 
 ---
 
-- Visit [CursorX Website](https://iamovi.github.io/CursorX/) for more information.
+#### Visit [CursorX Website](https://iamovi.github.io/CursorX/) for more information.
 
 ## License
 
