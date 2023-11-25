@@ -77,8 +77,16 @@ Installation Done, Now to implement cursor effect >
 <img src="https://ik.imagekit.io/iamovi/CursorX/apple.png?updatedAt=1700931158158" alt="Cursor Image" 
   class="CursorX-outline-apple" data-cursor-outline>
 ```
+
 - Check [CursorX-types.txt](https://github.com/iamovi/CursorX/blob/main/CursorX-types.txt) file.
 
+#### To show default Cursor >
+```bash
+html, button {
+  cursor: none !important;
+}
+```
+- Add this on your .css file.
 --- 
 
 ## Example
