@@ -81,9 +81,10 @@ Installation Done, Now to implement cursor effect >
 - Check [CursorX-types.txt](https://github.com/iamovi/CursorX/blob/main/CursorX-types.txt) file.
 
 #### To show default Cursor >
+![Preview of Get default cursor](https://ik.imagekit.io/iamovi/CursorX/preview/get-default-cursor.jpg?updatedAt=1700936041559)
 ```bash
 html, button {
-  cursor: none !important;
+  cursor: auto !important;
 }
 ```
 - Add this on your .css file.
