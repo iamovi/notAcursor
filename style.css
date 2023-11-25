@@ -2,6 +2,18 @@ body {
     cursor: none;
     padding: 20px;
 }
+
+.navbar-brand:hover {
+    animation: shake 0.3s ease infinite;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
 .navbar-text a {
     text-decoration: none;
 }
@@ -15,6 +27,11 @@ body {
 
 p {
     font-size: 20px;
+}
+
+section h1 {
+    display: inline-block;
+    border-bottom: 0.5px solid black;
 }
 
 section img {
@@ -39,7 +56,7 @@ section img {
 }
 .code {
     padding: 10px;
-    background-color: white; /* Set your desired background color for the code block */
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -47,7 +64,7 @@ section img {
 }
 pre {
     padding: 20px;
-    background-color: white; /* Set your desired background color for the code block */
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,5 +75,4 @@ pre {
 
 footer {
     text-align: center;
-    /* font-weight: bold; */
 }
