@@ -1,5 +1,6 @@
 # notAcursor Project
 ![notAcursor-minecraftSword-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-minecraftSword.gif?updatedAt=1701086973677)
+
 A tool that allows you to easily transform your ordinary cursor into something extraordinary.
 
 # Installation
@@ -17,10 +18,9 @@ And >
 ```
 - Copy and paste this to your body tag at the end.
 ---
-### Installation Done, Now to implement cursor effect >
+### Installation Done! Now to implement cursor effect >
 
 #### notAcursor-type1
-
 ![notAcursor-type1-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type1.gif?updatedAt=1701086917171)
 ```bash
 <!-- notAcursor-type1 -->
@@ -31,51 +31,50 @@ And >
 - This one is type1, To use type2 simply Change type1 to type2 >
 
 ### notAcursor-type2
-
 ![notAcursor-type2-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type2.gif?updatedAt=1701086947522)
 ```bash
 <!-- notAcursor-type2 -->
 <div class="notAcursor-dot-type2" data-notacursor-dot></div>
 <div class="notAcursor-outline-type2" data-notacursor-outline></div>
 ```
-### More CursorX Types are given below >
+### More notAcursor Types are given below >
 
 #### notAcursor-type3
-
 ![notAcursor-type3-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type3.gif?updatedAt=1701086960652)
 ```bash
-<!-- CursorX-type3 -->
-<div class="CursorX-dot-type3" data-notacursor-dot></div>
-<div class="CursorX-outline-type3" data-notacursor-outline></div>
+<!-- notAcursor-type3 -->
+<div class="notAcursor-dot-type3" data-notacursor-dot></div>
+<div class="notAcursor-outline-type3" data-notacursor-outline></div>
 ```
 #### notAcursor-pic
 - Use your random pic or gif as cursor.
 - Just replace your_pic.png to your actual photo, Like abcd.png or abcd.jpg or abcd.gif
+
 ![notAcursor-pic-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-pic.gif?updatedAt=1701086988948)
 ```bash
 <!-- notAcursor-pic -->
-<div class="CursorX-dot-pic" data-notacursor-dot></div>
+<div class="notAcursor-dot-pic" data-notacursor-dot></div>
 <img src="your_pic.png" alt="Cursor Image" 
-  class="CursorX-outline-pic" data-notacursor-outline>
+  class="notAcursor-outline-pic" data-notacursor-outline>
 ```
 #### notAcursor-minecraftSword
 ![notAcursor-minecraftSword-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-minecraftSword.gif?updatedAt=1701086973677)
 ```bash
-<!-- CursorX-minecraftSword -->
-<div class="CursorX-dot-minecraftSword" data-notacursor-dot></div>
+<!-- notAcursor-minecraftSword -->
+<div class="notAcursor-dot-minecraftSword" data-notacursor-dot></div>
 <img src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092" alt="Cursor Image" 
-  class="CursorX-outline-minecraftSword" data-notacursor-outline>
+  class="notAcursor-outline-minecraftSword" data-notacursor-outline>
 ```
 #### notAcursor-apple
-```bash
 ![notAcursor-apple-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-apple.gif?updatedAt=1701087010289)
-<!-- CursorX-apple -->
+```bash
+<!-- notAcursor-apple -->
 <div class="notAcursor-dot-apple" data-notacursor-dot></div>
 <img src="https://ik.imagekit.io/iamovi/CursorX/apple.png?updatedAt=1700931158158" alt="Cursor Image" 
   class="notAcursor-outline-apple" data-notacursor-outline>
 ```
 
-- Check [notAcursor-types.txt](https://github.com/iamovi/CursorX/blob/main/CursorX-types.txt) file.
+- Check [notAcursor-types.txt](./notAcursor-types.txt) file.
 
 ## Important Note
 
@@ -88,8 +87,18 @@ html, button, a {
 ```
 - Add this on your .css file.
 
-##### If 
-You change 
+##### If
+![Preview of dark-bg.png](https://ik.imagekit.io/iamovi/notAcursor/preview/dark-bg.png?updatedAt=1701089822278)
+
+You change `background / background-color to darkish color`, then notAcursor-type1 and notAcursor-type2 may not be visible Cuz it's also dark. To fix this >
+```bash
+/* to show notAcursor in dark background */
+.notAcursor-dot-type1,.notAcursor-dot-type2{background-color:#fff !important}.notAcursor-outline-type1{border:2px solid hsla(0,0%,100%,.5)}.notAcursor-outline-type2{border:3px solid hsla(0,0%,100%,.5) !important}
+```
+- Copy and paste this code to your .css file And done >
+
+![Preview of fix-if-dark-bg.png](https://ik.imagekit.io/iamovi/notAcursor/preview/fix-if-dark-bg.png?updatedAt=1701089894029)
+
 --- 
 
 ## Quick Start
@@ -145,5 +154,5 @@ Maruf OVi
 fornet.ovi@gmail.com
 
 ---
-
-Thanks your reading love 🌸
+I made this readme as easy as possible to read and understand,
+Tysm for reading love 🌸.
