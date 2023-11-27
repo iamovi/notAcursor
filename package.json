@@ -1,7 +1,7 @@
 {
   "name": "notacursor",
   "version": "0.0.7",
-  "description": "Simply change your normal cursor to Cool Cursor.",
+  "description": "A library for giving cursor cool looks in web pages.",
   "main": "notacursor.js",
   "scripts": {
     "test": ""
@@ -22,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/iamovi/notAcursor/issues"
   },
-  "Website": "https://iamovi.github.io/notAcursor"
+  "Website": "https://iamovi.github.io/notAcursor/"
 }

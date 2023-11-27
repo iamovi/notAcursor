@@ -1,7 +1,7 @@
 # notAcursor Project
 ![notAcursor-minecraftSword-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-minecraftSword.gif?updatedAt=1701086973677)
 
-A tool that allows you to easily transform your ordinary cursor into something extraordinary.
+notAcursor library allows you to easily transform your ordinary cursor into something extraordinary in web pages. 
 
 # Installation
 
