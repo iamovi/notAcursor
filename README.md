@@ -74,7 +74,7 @@ And >
   class="notAcursor-outline-apple" data-notacursor-outline>
 ```
 
-- Check `[notAcursor-types.txt](./notAcursor-types.txt)` file.
+- Check [notAcursor-types.txt](./notAcursor-types.txt) file.
 
 ## Important Note
 
