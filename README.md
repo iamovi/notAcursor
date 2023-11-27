@@ -18,7 +18,7 @@ And >
 ```
 - Copy and paste this to your body tag at the end.
 ---
-### Installation Done! Now to implement cursor effect >
+### Installation Done! Now to implement Cursor effect >
 
 #### notAcursor-type1
 ![notAcursor-type1-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type1.gif?updatedAt=1701086917171)
@@ -27,7 +27,7 @@ And >
 <div class="notAcursor-dot-type1" data-notacursor-dot></div>
 <div class="notAcursor-outline-type1" data-notacursor-outline></div>
 ```
-- Just copy and paste it to anywhere of your body tag.
+- Just copy and paste it to anywhere in your .html body tag.
 - This one is type1, To use type2 simply Change type1 to type2 >
 
 ### notAcursor-type2
@@ -74,7 +74,7 @@ And >
   class="notAcursor-outline-apple" data-notacursor-outline>
 ```
 
-- Check [notAcursor-types.txt](./notAcursor-types.txt) file.
+- Check `[notAcursor-types.txt](./notAcursor-types.txt)` file.
 
 ## Important Note
 
@@ -154,5 +154,5 @@ Maruf OVi
 fornet.ovi@gmail.com
 
 ---
-I made this readme as easy as possible to read and understand,
+I tried to made this readme as easy as possible for reading and understanding,
 Tysm for reading love 🌸.
