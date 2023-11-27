@@ -1,7 +1,7 @@
 body {
-    cursor: none;
     padding: 20px;
 }
+
 
 .navbar-brand:hover {
     animation: shake 0.3s ease infinite;

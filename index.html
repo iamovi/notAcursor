@@ -1,104 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CursorX</title>
-    <link rel="icon" href="./cursorx-favicon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>notAcursor</title>
+    <link rel="icon" href="./favicon/notacursor-favicon-16.png" />
+    <link rel="icon" href="./favicon/notacursor-favicon-32.png" />
+    <link rel="icon" href="./favicon/notacursor-favicon-96.png" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx-style.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-      body {
-        cursor: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        font-family: 'Roboto', sans-serif;
-      }
-      
-      @keyframes gradientAnimation {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
-      }
-      
-      html, body {
-        height: 100%;
-      }
-      
-      body {
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background-size: 400% 400%;
-        animation: gradientAnimation 15s ease infinite;
-      }
-      
-      button {
-        background-color: aquamarine;
-        cursor: pointer;
-        display: block;
-        border: 1px solid black;
-        position: fixed;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding: 20px;
-        transition: transform 0.3s ease;
-        font-weight: bold;
-      }
-      
-      button:hover {
-        border-radius: 10px;
-        animation: shake 0.2s ease infinite;
-      }
-      
-      h1, h3 {
-        text-align: center;
-        color: white;
-      }
-
-    /* Define the shake animation */
-    @keyframes shake {
-      0%, 100% {
-        transform: translate(-50%, -50%);
-      }
-      25%, 75% {
-        transform: translate(-50%, -50%) rotate(-5deg);
-      }
-      50% {
-        transform: translate(-50%, -50%) rotate(5deg);
-      }
-    }
-
-    @media only screen and (max-width: 600px) {
-      h3 {
-        text-align: center;
-        width: 90%;
-        margin: 0 auto; 
-      }
-    }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <!-- cursor -->
-    <div class="CursorX-dot-type1" data-cursor-dot></div>
-    <div class="CursorX-outline-type1" data-cursor-outline></div>
+    <!-- notAcursor-minecraftSword -->
+    <div class="notAcursor-dot-minecraftSword" data-notacursor-dot></div>
+    <img
+      src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092"
+      alt="Cursor Image"
+      class="notAcursor-outline-minecraftSword"
+      data-notacursor-outline
+    />
 
-    <!-- cursor -->
-    <!-- <div class="CursorX-dot-type2" data-cursor-dot></div>
-    <div class="CursorX-outline-type2" data-cursor-outline></div> -->
+    <h1>notAcursor</h1>
+    <h3>A library for giving cursor cool looks in web pages.</h3>
+    <h2 style="color: white; text-align: center; font-style: italic">
+      ⚠ This website is not ready yet ⚠
+    </h2>
 
-    <h1>CursorX</h1>
-    <h3>Simply change your normal cursor to Cool Cursor.</h3>
+    <a href="./assets/notAcursor/notacursor.html"
+      ><button>GET STARTED</button></a
+    >
 
-    <a href="./cursorx.html"><button>GET STARTED</button></a>
+    <div id="particles-js"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx.js"></script>
+    <div class="social-icons">
+      <a href="https://github.com/iamovi/notAcursor" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a href="https://oviportfo.netlify.app/" target="_blank">
+        <img
+          src="https://ik.imagekit.io/iamovi/favicon-ovisportfo.png?updatedAt=1701106336656"
+          alt="Ovi's Portfolio Image"
+        />
+
+        <span>Portfolio</span>
+      </a>
+      <a href="https://www.facebook.com/yovi.11" target="_blank"
+        ><i class="fab fa-facebook"></i
+      ></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #d2d523, #d58e23);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+button {
+  background: linear-gradient(
+    45deg,
+    #ff6b6b,
+    #feca57,
+    #ff9ff3,
+    #48dbfb,
+    #1dd1a1,
+    #f368e0
+  );
+  background-size: 600% 600%;
+  cursor: pointer;
+  display: block;
+  border: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: gradientAnimation 15s ease infinite,
+    rainbowAnimation 7s linear infinite;
+}
+
+@keyframes rainbowAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fireAnimation {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8), 0 0 40px rgba(255, 165, 0, 0.8), 0 0 80px rgba(255, 255, 255, 0.4);
+  }
+}
+
+button:hover {
+  animation: fireAnimation 0.5s ease infinite;
+  background: linear-gradient(45deg, #ff0000, #ff6600);
+  color: white;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: white;
+}
+
+/* Define the shake animation */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translate(-50%, -50%);
+  }
+  25%,
+  75% {
+    transform: translate(-50%, -50%) rotate(-5deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(5deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* ... your existing styles ... */
+
+.social-icons {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons i {
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover i {
+  color: aquamarine;
+}
+
+.social-icons a img {
+  width: 40px;
+  border-radius: 50%;
+}
+.social-icons a:hover img {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.social-icons a span {
+  margin-top: 5px;
+  font-size: 14px;
+  color: black;
+}
