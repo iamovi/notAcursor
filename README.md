@@ -154,5 +154,7 @@ Maruf OVi
 fornet.ovi@gmail.com
 
 ---
-I tried to made this readme as easy as possible for reading and understanding,
+I tried to made this readme as easy as possible for reading and understanding.
+If you come across a bug, have a question, want to propose a new feature, or just want to chat, feel free to contact me or report an issue.
+
 Tysm for reading love 🌸.
