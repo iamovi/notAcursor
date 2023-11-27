@@ -87,10 +87,10 @@ html, button, a {
 ```
 - Add this on your .css file.
 
-##### If
+#### If
 ![Preview of dark-bg.png](https://ik.imagekit.io/iamovi/notAcursor/preview/dark-bg.png?updatedAt=1701089822278)
 
-You change `background / background-color to darkish color`, then notAcursor-type1 and notAcursor-type2 may not be visible Cuz it's also dark. To fix this >
+You change `background / background-color to darkish color in body`, then notAcursor-type1 and notAcursor-type2 may not be visible Cuz it's also dark. To fix this >
 ```bash
 /* to show notAcursor in dark background */
 .notAcursor-dot-type1,.notAcursor-dot-type2{background-color:#fff !important}.notAcursor-outline-type1{border:2px solid hsla(0,0%,100%,.5)}.notAcursor-outline-type2{border:3px solid hsla(0,0%,100%,.5) !important}
@@ -141,7 +141,7 @@ You change `background / background-color to darkish color`, then notAcursor-typ
 
 ---
 
-#### Visit [notAcursor Website](https://iamovi.github.io/notAcursor) for more information.
+#### Visit [notAcursor Website](https://iamovi.github.io/notAcursor/) for more information.
 
 ## License
 
@@ -157,4 +157,4 @@ fornet.ovi@gmail.com
 I tried to made this readme as easy as possible for reading and understanding.
 If you come across a bug, have a question, want to propose a new feature, or just want to chat, feel free to contact me or report an issue.
 
-Tysm for reading love 🌸.
+Tysm for reading 🌸.
