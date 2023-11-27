@@ -1,5 +1,5 @@
 # notAcursor Project
-
+![notAcursor-minecraftSword-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-minecraftSword.gif?updatedAt=1701086973677)
 A tool that allows you to easily transform your ordinary cursor into something extraordinary.
 
 # Installation
@@ -17,21 +17,23 @@ And >
 ```
 - Copy and paste this to your body tag at the end.
 ---
-Installation Done, Now to implement cursor effect > 
-```bash
+### Installation Done, Now to implement cursor effect >
+
 #### notAcursor-type1
 
 ![notAcursor-type1-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type1.gif?updatedAt=1701086917171)
+```bash
 <!-- notAcursor-type1 -->
 <div class="notAcursor-dot-type1" data-notacursor-dot></div>
 <div class="notAcursor-outline-type1" data-notacursor-outline></div>
 ```
 - Just copy and paste it to anywhere of your body tag.
 - This one is type1, To use type2 simply Change type1 to type2 >
-```bash
+
 ### notAcursor-type2
 
 ![notAcursor-type2-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type2.gif?updatedAt=1701086947522)
+```bash
 <!-- notAcursor-type2 -->
 <div class="notAcursor-dot-type2" data-notacursor-dot></div>
 <div class="notAcursor-outline-type2" data-notacursor-outline></div>
@@ -57,8 +59,8 @@ Installation Done, Now to implement cursor effect >
   class="CursorX-outline-pic" data-notacursor-outline>
 ```
 #### notAcursor-minecraftSword
-```bash
 ![notAcursor-minecraftSword-preview](https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-minecraftSword.gif?updatedAt=1701086973677)
+```bash
 <!-- CursorX-minecraftSword -->
 <div class="CursorX-dot-minecraftSword" data-notacursor-dot></div>
 <img src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092" alt="Cursor Image" 
