@@ -1,25 +1,26 @@
 {
-  "name": "cursorx",
-  "version": "0.0.6",
-  "description": "Give your cursor cool effects.",
-  "main": "cursorx.js",
+  "name": "notacursor",
+  "version": "0.0.7",
+  "description": "Simply change your normal cursor to Cool Cursor.",
+  "main": "notacursor.js",
   "scripts": {
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamovi/CursorX.git"
+    "url": "git+https://github.com/iamovi/notAcursor.git"
   },
   "keywords": [
     "cursor",
     "cool-cursor",
     "cursor-effect",
-    "cursorx"
+    "awesome-cursor",
+    "notAcursor"
   ],
   "author": "Maruf OVi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamovi/CursorX/issues"
+    "url": "https://github.com/iamovi/notAcursor/issues"
   },
-  "Website": "https://iamovi.github.io/CursorX"
+  "Website": "https://iamovi.github.io/notAcursor"
 }

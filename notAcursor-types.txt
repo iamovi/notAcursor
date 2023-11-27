@@ -1,0 +1,27 @@
+    <!-- notAcursor-type1 -->
+    <div class="notAcursor-dot-type1" data-cursor-dot></div>
+    <div class="notAcursor-outline-type1" data-cursor-outline></div>
+
+    <!-- notAcursor-type2 -->
+    <div class="notAcursor-dot-type2" data-cursor-dot></div>
+    <div class="notAcursor-outline-type2" data-cursor-outline></div>
+
+    <!-- notAcursor-type3 -->
+    <div class="notAcursor-dot-type3" data-cursor-dot></div>
+    <div class="notAcursor-outline-type3" data-cursor-outline></div>
+
+    
+    <!-- notAcursor-pic -->
+    <div class="notAcursor-dot-pic" data-cursor-dot></div>
+    <img src="your_pic.jpg" alt="Cursor Image" 
+      class="notAcursor-outline-pic" data-cursor-outline>
+
+    <!-- notAcursor-minecraftSword -->
+    <div class="notAcursor-dot-minecraftSword" data-cursor-dot></div>
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/minecraft-sword.png?updatedAt=1701079351519" alt="Cursor Image" 
+    class="notAcursor-outline-minecraftSword" data-cursor-outline>
+
+    <!-- notAcursor-apple -->
+    <div class="notAcursor-dot-apple" data-cursor-dot></div>
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/apple.png?updatedAt=1701079346488" alt="Cursor Image" 
+    class="notAcursor-outline-apple" data-cursor-outline>
