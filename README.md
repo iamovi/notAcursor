@@ -62,7 +62,7 @@ And >
 ```bash
 <!-- notAcursor-minecraftSword -->
 <div class="notAcursor-dot-minecraftSword" data-notacursor-dot></div>
-<img src="https://ik.imagekit.io/iamovi/CursorX/minecraft-sword.png?updatedAt=1700926782092" alt="Cursor Image" 
+<img src="https://ik.imagekit.io/iamovi/notAcursor/minecraft-sword.png?updatedAt=1701079351519" alt="Cursor Image" 
   class="notAcursor-outline-minecraftSword" data-notacursor-outline>
 ```
 #### notAcursor-apple
@@ -70,7 +70,7 @@ And >
 ```bash
 <!-- notAcursor-apple -->
 <div class="notAcursor-dot-apple" data-notacursor-dot></div>
-<img src="https://ik.imagekit.io/iamovi/CursorX/apple.png?updatedAt=1700931158158" alt="Cursor Image" 
+<img src="https://ik.imagekit.io/iamovi/notAcursor/apple.png?updatedAt=1701079346488" alt="Cursor Image" 
   class="notAcursor-outline-apple" data-notacursor-outline>
 ```
 
