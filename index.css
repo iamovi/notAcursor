@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@font-face {
+  font-family: Chivo Mono;
+  src: url(./assets/font/chivo-mono.ttf);
+}
 body {
   cursor: none;
   margin: 0;
