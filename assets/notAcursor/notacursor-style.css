@@ -1,78 +1,85 @@
 body {
-    padding: 20px;
+  padding: 20px;
 }
-
 
 .navbar-brand:hover {
-    animation: shake 0.3s ease infinite;
+  animation: shake 0.3s ease infinite;
 }
 @keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    50% { transform: translateX(5px); }
-    75% { transform: translateX(-5px); }
-    100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .navbar-text a {
-    text-decoration: none;
+  text-decoration: none;
 }
 @media only screen and (max-width: 600px) {
-
-
-.navbar-toggler {
+  .navbar-toggler {
     display: none;
-    }
+  }
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 section h1 {
-    display: inline-block;
-    border-bottom: 0.5px solid black;
+  display: inline-block;
+  border-bottom: 0.5px solid black;
 }
 
 section img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .copy-message {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-    opacity: 0;
-    transition: opacity 1s ease;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .copy-message.show {
-    opacity: 1;
+  opacity: 1;
 }
 .code {
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: auto;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
 }
 pre {
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: auto;
-    max-width: 800px;
-    width: 100%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  max-width: 800px;
+  width: 100%;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
