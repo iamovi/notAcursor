@@ -1,105 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>notAcursor</title>
     <link rel="icon" href="../../favicon/favicon-notacursor-16.png" />
     <link rel="icon" href="../../favicon/favicon-notacursor-32.png" />
     <link rel="icon" href="../../favicon/favicon-notacursor-96.png" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.css">
-    <link rel="stylesheet" href="./notacursor-style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.css"
+    />
+    <link rel="stylesheet" href="./notacursor-style.css" />
+  </head>
+  <body>
     <!-- notAcursor-type2 -->
     <div class="notAcursor-dot-type2" data-notacursor-dot></div>
     <div class="notAcursor-outline-type2" data-notacursor-outline></div>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html">notAcursor</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="showSection('introduction')">Intro</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="showSection('installation')">Installation</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-text ml-auto">
-                <a href="https://github.com/iamovi/CursorX" target="_blank" class="text-dark">
-                    <i class="fas fa-arrow-right"></i> GitHub Repo
-                </a>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">notAcursor</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="showSection('introduction')"
+                >Intro</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="showSection('installation')"
+                >Installation</a
+              >
+            </li>
+          </ul>
         </div>
+        <div class="navbar-text ml-auto">
+          <a
+            href="https://github.com/iamovi/CursorX"
+            target="_blank"
+            class="text-dark"
+          >
+            <i class="fas fa-arrow-right"></i> GitHub Repo
+          </a>
+        </div>
+      </div>
     </nav>
 
     <!-- Sections -->
     <section id="introduction" class="content-section mt-3">
-        <div class="container">
-            <h1>Intro</h1>
-            <h4 class="mt-2">Simply change your normal cursor to Cool Cursor.</h4>
-            <p>
-              Welcome to CursorX, a tool that allows you to easily transform your ordinary cursor into something extraordinary. With CursorX, you can personalize your cursor to reflect your style and creativity. Whether you prefer a sleek and minimal design or something more vibrant and eye-catching, CursorX has got you covered.
-          </p>
-          <p>
-              Getting started with CursorX is a breeze. Just follow our simple installation guide, and you'll be on your way to enjoying a customized cursor experience. Feel free to explore the various options and features available, and make your cursor truly unique.
-          </p>
-          <p>
-              CursorX is open source and hosted on GitHub. We welcome contributions from the community, so if you have ideas for improvements or new features, don't hesitate to get involved. Check out our GitHub repository to stay updated and contribute to the project.
-          </p>
-        </div>
+      <div class="container">
+        <h1>Intro</h1>
+        <h4 class="mt-2">Simply change your normal cursor to Cool Cursor.</h4>
+        <p>
+          Welcome to CursorX, a tool that allows you to easily transform your
+          ordinary cursor into something extraordinary. With CursorX, you can
+          personalize your cursor to reflect your style and creativity. Whether
+          you prefer a sleek and minimal design or something more vibrant and
+          eye-catching, CursorX has got you covered.
+        </p>
+        <p>
+          Getting started with CursorX is a breeze. Just follow our simple
+          installation guide, and you'll be on your way to enjoying a customized
+          cursor experience. Feel free to explore the various options and
+          features available, and make your cursor truly unique.
+        </p>
+        <p>
+          CursorX is open source and hosted on GitHub. We welcome contributions
+          from the community, so if you have ideas for improvements or new
+          features, don't hesitate to get involved. Check out our GitHub
+          repository to stay updated and contribute to the project.
+        </p>
+      </div>
     </section>
 
     <section id="installation" class="content-section mt-4">
       <div class="container">
-          <h1>Installation</h1>
-          <p>To use CursorX ></p>
-          <p id="styleCode" class="code"><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx-style.css"&gt;</code></p>
-          <button onclick="copyText('styleCode')" id="copyStyleButton">Copy</button>
-          <br><br>
-          <p>Simply copy the tag and paste it into your HTML head tag.</p>
-          <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/css-preview.png?updatedAt=1700851262040" alt="Preview Image" class="img-fluid">
-          <br><br>
-          <p>And ></p>
-          <p id="scriptCode" class="code"><code>&lt;script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx.js"&gt;&lt;/script&gt;</code></p>
-          <button onclick="copyText('scriptCode')" id="copyScriptButton">Copy</button>
-          <br><br>
-          <p>Copy the tag and paste it into your HTML at the end of the body tag.</p>
-          <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/js-preview.png?updatedAt=1700851308611" alt="Preview Image" class="img-fluid">
-          <hr>
-          <p class="text-success h4 fst-italic">Congrats! You successfully installed CursorX on your project, Now to implement cursor effect ></p>
-          <br>
-          <p id="type1Code" class="code"><code>&lt;div class="CursorX-dot-type1" data-cursor-dot&gt;&lt;/div&gt; &lt;div class="CursorX-outline-type1" data-cursor-outline&gt;&lt;/div&gt;</code></p>
-          <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/type1-preview.png?updatedAt=1700851389575" alt="Preview Image" class="img-fluid">
-          <br><br>
-          <button onclick="copyText('type1Code')" id="copyType1">Copy</button>
-          <br><br>
-          <p>Simply copy this code and paste it to anywhere of your html body tag. And BOOM you are all set to enjoy CursorX.</p>
-          <br>
-          <p class="text-success">To implement another effect, just change type1 to type 2 ></p>
-          <p id="type2Code" class="code"><code>&lt;div class="CursorX-dot-type2" data-cursor-dot&gt;&lt;/div&gt; &lt;div class="CursorX-outline-type2" data-cursor-outline&gt;&lt;/div&gt;</code></p>
-          <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/type2-preview.png?updatedAt=1700851431618" alt="Preview Image" class="img-fluid">
-          <br><br>
-          <button onclick="copyText('type2Code')" id="copyType2">Copy</button>
-          <br><br>
-          <hr>
-          <h2>Quick Start</h2>
-          <br>
-          <pre>
+        <h1>Installation</h1>
+        <p>To use CursorX ></p>
+        <p id="styleCode" class="code">
+          <code
+            >&lt;link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx-style.css"&gt;</code
+          >
+        </p>
+        <button onclick="copyText('styleCode')" id="copyStyleButton">
+          Copy
+        </button>
+        <br /><br />
+        <p>Simply copy the tag and paste it into your HTML head tag.</p>
+        <img
+          src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/css-preview.png?updatedAt=1700851262040"
+          alt="Preview Image"
+          class="img-fluid"
+        />
+        <br /><br />
+        <p>And ></p>
+        <p id="scriptCode" class="code">
+          <code
+            >&lt;script
+            src="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx.js"&gt;&lt;/script&gt;</code
+          >
+        </p>
+        <button onclick="copyText('scriptCode')" id="copyScriptButton">
+          Copy
+        </button>
+        <br /><br />
+        <p>
+          Copy the tag and paste it into your HTML at the end of the body tag.
+        </p>
+        <img
+          src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/js-preview.png?updatedAt=1700851308611"
+          alt="Preview Image"
+          class="img-fluid"
+        />
+        <hr />
+        <p class="text-success h4 fst-italic">
+          Congrats! You successfully installed CursorX on your project, Now to
+          implement cursor effect >
+        </p>
+        <br />
+        <p id="type1Code" class="code">
+          <code
+            >&lt;div class="CursorX-dot-type1" data-cursor-dot&gt;&lt;/div&gt;
+            &lt;div class="CursorX-outline-type1"
+            data-cursor-outline&gt;&lt;/div&gt;</code
+          >
+        </p>
+        <img
+          src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/type1-preview.png?updatedAt=1700851389575"
+          alt="Preview Image"
+          class="img-fluid"
+        />
+        <br /><br />
+        <button onclick="copyText('type1Code')" id="copyType1">Copy</button>
+        <br /><br />
+        <p>
+          Simply copy this code and paste it to anywhere of your html body tag.
+          And BOOM you are all set to enjoy CursorX.
+        </p>
+        <br />
+        <p class="text-success">
+          To implement another effect, just change type1 to type 2 >
+        </p>
+        <p id="type2Code" class="code">
+          <code
+            >&lt;div class="CursorX-dot-type2" data-cursor-dot&gt;&lt;/div&gt;
+            &lt;div class="CursorX-outline-type2"
+            data-cursor-outline&gt;&lt;/div&gt;</code
+          >
+        </p>
+        <img
+          src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/type2-preview.png?updatedAt=1700851431618"
+          alt="Preview Image"
+          class="img-fluid"
+        />
+        <br /><br />
+        <button onclick="copyText('type2Code')" id="copyType2">Copy</button>
+        <br /><br />
+        <hr />
+        <h2>Quick Start</h2>
+        <br />
+        <pre>
             &lt;!DOCTYPE html&gt;
             &lt;html lang="en"&gt;
               &lt;head&gt;
@@ -139,21 +228,21 @@
                 &lt;script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx.js"&gt;&lt;/script&gt;
               &lt;/body&gt;
             &lt;/html&gt;
-                </pre>
-                <br>
-                <hr>
+                </pre
+        >
+        <br />
+        <hr />
       </div>
-  </section>
+    </section>
 
-  <footer>
-    <p>MIT LICENSED | &copy; 2023 Maruf OVi</p>
-    <p>fornet.ovi@gmail.com</p>
-  </footer>
+    <footer>
+      <p>MIT LICENSED | &copy; 2023 Maruf OVi</p>
+      <p>fornet.ovi@gmail.com</p>
+    </footer>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.js"></script>
     <script src="./notacursor-main.js"></script>
-</body>
+  </body>
 </html>
