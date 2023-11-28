@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
 body {
   cursor: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Chivo Mono', monospace;
 }
 
 @keyframes gradientAnimation {
