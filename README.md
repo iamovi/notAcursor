@@ -8,13 +8,13 @@ notAcursor library allows you to easily transform your ordinary cursor into some
 ### CDN
 To use notAcursor >
 ```bash
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.css">
 ```
 - Copy and paste this link on your html head tag.
 
 And >
 ```bash
-<script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.js"></script>
 ```
 - Copy and paste this to your body tag at the end.
 ---
@@ -110,7 +110,7 @@ You change `background / background-color to darkish color in body`, then notAcu
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>notAcursor</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.css">    
     <style>
       button {
           background-color: aquamarine;
@@ -134,7 +134,7 @@ You change `background / background-color to darkish color in body`, then notAcu
 
     <button>Test ME!</button>
     
-    <script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.7/notacursor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.js"></script>
   </body>
 </html>
 ```
