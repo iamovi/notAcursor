@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'Chivo Mono', monospace;
+  font-family: Chivo Mono;
 }
 
 @keyframes gradientAnimation {
