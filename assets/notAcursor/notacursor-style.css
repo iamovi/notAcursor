@@ -47,7 +47,8 @@ section img {
 
 .copy-message {
   position: fixed;
-  bottom: 20px;
+  font-weight: bold;
+  bottom: 50%;
   left: 50%;
   transform: translateX(-50%);
   padding: 10px;
@@ -61,6 +62,27 @@ section img {
 .copy-message.show {
   opacity: 1;
 }
+section button {
+  width: 200px;  
+  padding: 5px 0px;
+  background: linear-gradient(
+    45deg,
+    #ff6b6b,
+    #feca57,
+    #ff9ff3,
+    #48dbfb,
+    #1dd1a1,
+    #f368e0
+  );
+  border-radius: 4px;
+  border: none;
+  transition: 0.3s all ease;
+}
+section button:hover {
+  color: white;
+  font-weight: bold;
+}
+
 .code {
   padding: 10px;
   background-color: white;
