@@ -3,11 +3,16 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>notAcursor</title>
   <link rel="icon" href="../../favicon/favicon-notacursor-16.png" />
   <link rel="icon" href="../../favicon/favicon-notacursor-32.png" />
   <link rel="icon" href="../../favicon/favicon-notacursor-96.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -15,6 +20,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ani.css@1.0.2/dist/css/ani.min.css">
+
   <link rel="stylesheet" href="./notacursor-style.css" />
 </head>
 
@@ -26,7 +34,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../../index.html">notAcursor (unready)</a>
+      <a class="navbar-brand" href="../../index.html">notAcursor</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,11 +56,10 @@
       </div>
     </div>
   </nav>
-
   <!-- Sections -->
-  <section id="introduction" class="content-section mt-3">
+  <section id="introduction" class="content-section mt-3 forbb">
     <div class="container">
-      <h1>Intro</h1>
+      <h1 class="text-success ani-txt-a">Intro</h1>
       <h4 class="mt-2">Simply change your normal cursor to Cool Cursor.</h4>
       <img src="https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type1.gif?updatedAt=1701086917171" alt="" class="img-fluid">
       <p>
@@ -71,114 +78,152 @@
     </div>
   </section>
 
-  <section id="installation" class="content-section mt-4">
+  <section id="installation" class="content-section mt-4 forbb2">
     <div class="container">
-      <h1>Installation</h1>
-      <p>To use notAcursor ></p>
-      <p id="styleCode" class="code">
-        <code>&lt;link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx-style.css"&gt;</code>
-      </p>
-      <button onclick="copyText('styleCode')" id="copyStyleButton">
-        Copy
-      </button>
-      <br /><br />
-      <p>Simply copy the tag and paste it into your HTML head tag.</p>
-      <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/css-preview.png?updatedAt=1700851262040"
-        alt="Preview Image" class="img-fluid" />
-      <br /><br />
-      <p>And ></p>
-      <p id="scriptCode" class="code">
-        <code>&lt;script
-            src="https://cdn.jsdelivr.net/npm/cursorx@0.0.4/cursorx.js"&gt;&lt;/script&gt;</code>
-      </p>
-      <button onclick="copyText('scriptCode')" id="copyScriptButton">
-        Copy
-      </button>
-      <br /><br />
-      <p>
-        Copy the tag and paste it into your HTML at the end of the body tag.
-      </p>
-      <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/js-preview.png?updatedAt=1700851308611"
-        alt="Preview Image" class="img-fluid" />
-      <hr />
-      <p class="text-success h4 fst-italic">
-        Congrats! You successfully installed CursorX on your project, Now to
-        implement cursor effect >
-      </p>
-      <br />
-      <p id="type1Code" class="code">
-        <code>&lt;div class="CursorX-dot-type1" data-cursor-dot&gt;&lt;/div&gt;
-            &lt;div class="CursorX-outline-type1"
-            data-cursor-outline&gt;&lt;/div&gt;</code>
-      </p>
-      <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/type1-preview.png?updatedAt=1700851389575"
-        alt="Preview Image" class="img-fluid" />
-      <br /><br />
-      <button onclick="copyText('type1Code')" id="copyType1">Copy</button>
-      <br /><br />
-      <p>
-        Simply copy this code and paste it to anywhere of your html body tag.
-        And BOOM you are all set to enjoy CursorX.
-      </p>
-      <br />
-      <p class="text-success">
-        To implement another effect, just change type1 to type 2 >
-      </p>
-      <p id="type2Code" class="code">
-        <code>&lt;div class="CursorX-dot-type2" data-cursor-dot&gt;&lt;/div&gt;
-            &lt;div class="CursorX-outline-type2"
-            data-cursor-outline&gt;&lt;/div&gt;</code>
-      </p>
-      <img src="https://ik.imagekit.io/iamovi/CursorX/gh-pages/type2-preview.png?updatedAt=1700851431618"
-        alt="Preview Image" class="img-fluid" />
-      <br /><br />
-      <button onclick="copyText('type2Code')" id="copyType2">Copy</button>
-      <br /><br />
-      <hr />
-      <h2>Quick Start</h2>
-      <br />
-      <pre>
-            &lt;!DOCTYPE html&gt;
-            &lt;html lang="en"&gt;
-              &lt;head&gt;
-                &lt;meta charset="UTF-8" /&gt;
-                &lt;meta name="viewport" 
-                content="width=device-width, initial-scale=1.0" /&gt;
-                &lt;title&gt;Document&lt;/title&gt;
-            
-                &lt;link rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/cursorx@0.0.8/cursorx-style.css"&gt;    
-                &lt;style&gt;
-                  button {
-                      background-color: aquamarine;
-                      cursor: pointer;
-                      display: block;
-                      border: 1px solid black;
-                      margin: auto;
-                      margin-top: 150px;
-                      padding: 10px;
-                  }
-                  button:hover {
-                    border-radius: 10px;
-                  }
-                &lt;/style&gt;
-              &lt;/head&gt;
-              &lt;body&gt;
-                &lt;!-- cursor --&gt;
-                &lt;div class="CursorX-dot-type1" data-cursor-dot&gt;&lt;/div&gt;
-                &lt;div class="CursorX-outline-type1" data-cursor-outline&gt;&lt;/div&gt;
-            
-                &lt;!-- cursor --&gt;
-                &lt;!-- &lt;div class="CursorX-dot-type2" data-cursor-dot&gt;&lt;/div&gt;
-                &lt;div class="CursorX-outline-type2" data-cursor-outline&gt;&lt;/div&gt; --&gt;
-            
-                &lt;button&gt;Test ME!&lt;/button&gt;
-            
-                &lt;script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.8/cursorx.js"&gt;&lt;/script&gt;
-              &lt;/body&gt;
-            &lt;/html&gt;
-                </pre>
+      <h1 class="text-success ani-txt-a">Installation</h1>
+      
+      <br>
+      <code id="cssToCopy" class="cdn">
+        &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.css"&gt;
+    </code>
+    <button onclick="copyCode('cssToCopy')" class="ani-btn-b">Copy CSS</button>
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/gh-pages/notacursor-css-preview.png?updatedAt=1701186679800" alt="css cdn preview" class="previewcdn img-fluid">
+    <br>
+    <hr>
+    <hr>
+
+    <code id="jsToCopy" class="cdn">
+        &lt;script src="https://cdn.jsdelivr.net/npm/notacursor@0.0.8/notacursor.js"&gt;&lt;/script&gt;
+    </code>
+    <button onclick="copyCode('jsToCopy')" class="ani-btn-b">Copy JS</button>
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/gh-pages/notacursor-js-preview.png?updatedAt=1701186679665" alt="css js preview" class="previewcdn img-fluid">
+
+    <br>
+    <hr>
+
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type1.gif?updatedAt=1701086917171" alt="type-1 preview" class="preview img-fluid">
+    <code id="htmlToCopy">
+        &lt;!-- notAcursor-type1 --&gt;<br>
+        &lt;div class="notAcursor-dot-type1" data-notacursor-dot&gt;&lt;/div&gt;<br>
+        &lt;div class="notAcursor-outline-type1" data-notacursor-outline&gt;&lt;/div&gt;
+    </code>  
+    <button onclick="copyCode('htmlToCopy')" class="ani-btn-m">Copy HTML (type 1)</button>
+    <br>
+    <hr>
+
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type2.gif?updatedAt=1701086947522" alt="type-1 preview" class="preview img-fluid">
+    <code id="htmlToCopyType2">
+        &lt;!-- notAcursor-type2 --&gt;<br>
+        &lt;div class="notAcursor-dot-type2" data-notacursor-dot&gt;&lt;/div&gt;<br>
+        &lt;div class="notAcursor-outline-type2" data-notacursor-outline&gt;&lt;/div&gt;
+    </code>
+    
+    <button onclick="copyCode('htmlToCopyType2')" class="ani-btn-m">Copy HTML (type 2)</button>
+    <br>
+    <hr>
+
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-type3.gif?updatedAt=1701086960652" alt="type-1 preview" class="preview img-fluid">
+    <code id="htmlToCopyType3">
+        &lt;!-- notAcursor-type3 --&gt;<br>
+        &lt;div class="notAcursor-dot-type3" data-notacursor-dot&gt;&lt;/div&gt;<br>
+        &lt;div class="notAcursor-outline-type3" data-notacursor-outline&gt;&lt;/div&gt;
+    </code>
+    
+    <button onclick="copyCode('htmlToCopyType3')" class="ani-btn-m">Copy HTML (type 3)</button>
+    <br>
+    <hr>
+
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-pic.gif?updatedAt=1701086988948" alt="type-1 preview" class="preview img-fluid">
+    <code id="htmlToCopyPic">
+        &lt;!-- notAcursor-pic --&gt;<br>
+        &lt;div class="notAcursor-dot-pic" data-notacursor-dot&gt;&lt;/div&gt;<br>
+        &lt;img src="your_pic.png" alt="Cursor Image" class="notAcursor-outline-pic" data-notacursor-outline&gt;
+    </code>
+    
+    <button onclick="copyCode('htmlToCopyPic')" class="ani-btn-m">Copy HTML (pic)</button>
+    <br>
+    <hr>
+
+
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-minecraftSword.gif?updatedAt=1701086973677" alt="type-1 preview" class="preview img-fluid">
+    <code id="htmlToCopyMinecraftSword">
+        &lt;!-- notAcursor-minecraftSword --&gt;<br>
+        &lt;div class="notAcursor-dot-minecraftSword" data-notacursor-dot&gt;&lt;/div&gt;<br>
+        &lt;img src="https://ik.imagekit.io/iamovi/notAcursor/minecraft-sword.png?updatedAt=1701079351519" alt="Cursor Image" 
+        class="notAcursor-outline-minecraftSword" data-notacursor-outline&gt;
+    </code>
+    
+    <button onclick="copyCode('htmlToCopyMinecraftSword')" class="ani-btn-m">Copy HTML (minecraftSword)</button>
+    <br>
+    <hr>
+
+    <img src="https://ik.imagekit.io/iamovi/notAcursor/preview/preview-notAcursor-apple.gif?updatedAt=1701087010289" alt="type-1 preview" class="preview img-fluid">
+    <code id="htmlToCopyApple">
+        &lt;!-- notAcursor-apple --&gt;<br>
+        &lt;div class="notAcursor-dot-apple" data-notacursor-dot&gt;&lt;/div&gt;<br>
+        &lt;img src="https://ik.imagekit.io/iamovi/notAcursor/apple.png?updatedAt=1701079346488" alt="Cursor Image" 
+        class="notAcursor-outline-apple" data-notacursor-outline&gt;
+    </code>
+    
+    <button onclick="copyCode('htmlToCopyApple')" class="ani-btn-m">Copy HTML (apple)</button>
+    <br>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div id="copyNotification">Code Copied!</div>
+
+
+    <hr>
+    <h1>Quick start -</h1>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;meta name="viewport" 
+    content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+
+    &lt;link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/cursorx@0.0.8/cursorx-style.css"&gt;    
+    &lt;style&gt;
+      button {
+          background-color: aquamarine;
+          cursor: pointer;
+          display: block;
+          border: 1px solid black;
+          margin: auto;
+          margin-top: 150px;
+          padding: 10px;
+      }
+      button:hover {
+        border-radius: 10px;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- cursor --&gt;
+    &lt;div class="CursorX-dot-type1" data-cursor-dot&gt;&lt;/div&gt;
+    &lt;div class="CursorX-outline-type1" data-cursor-outline&gt;&lt;/div&gt;
+
+    &lt;!-- cursor --&gt;
+    &lt;!-- &lt;div class="CursorX-dot-type2" data-cursor-dot&gt;&lt;/div&gt;
+    &lt;div class="CursorX-outline-type2" data-cursor-outline&gt;&lt;/div&gt; --&gt;
+
+    &lt;button&gt;Test ME!&lt;/button&gt;
+
+    &lt;script src="https://cdn.jsdelivr.net/npm/cursorx@0.0.8/cursorx.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
       <br />
       <hr />
     </div>
